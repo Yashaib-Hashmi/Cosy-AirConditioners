@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+         <!-- Font Awesome -->
+         <link href= 
+         "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
+                   rel="stylesheet"> 
+    <title>COSY-AIRCONDITIONERS</title>
+  </head>
+  <body style="background: linear-gradient(to right, silver,grey, grey, silver);">
+     <!-- go to top button -->
+     <button type="button" class="rounded-pill" onclick="topFunction()" id="top_btn">Top</button> 
+    <!-- javascript code -->
+     <script>
+      var go_top = document.getElementById("top_btn");
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction(){
+        if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 ){
+          go_top.style.display = "block";
+        }else{
+          go_top.style.display = "none";
+        }
+      }
+      function topFunction(){
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+     </script> 
+    <!-- javascript code -->
+    <!-- go to top button -->
+
+
+
+
+
+  
+
+    <div class="gradient-background">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img id="heartbeat" src="Images/logoremoveback.png"class="img-fluid me-2" alt="" style="width: 100px;">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+              <span class="fa-solid fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            </ul>
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold me-2" aria-current="page" href="index.html" id="hover">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold me-2" href="product.html" id="hover">Product</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle me-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="hover">
+                  Brands
+                </a>
+                <ul id="list" class="dropdown-menu" style= "background: linear-gradient(to right, grey,black,black,grey)"  >
+                  </ul>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active fw-bold me-2" aria-current="page" href="About.html" id="hover">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" aria-current="page" href="Contact.html" id="hover">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 rounded-pill" type="search" placeholder="Search"  id="search_input" onclick="custom()" aria-label="Search">
+             </form>
+          </div>
+        </div>
+      </nav>
+      </div>
+    </div>
+
+
+
+     <section>
+    <div  class="text-center fw-bolder mb-5 mt-4" style="text-shadow: 2px 10px 5px rgba(128, 128, 128, 0.701)"><h1>HAIER  PRODUCTS</h1></div>
+    <div class="container pb-3">
+    <div class="row" id="productListing_h">  
+  </div>
+</div>
+  </section>
+  <section>
+    <div  class="text-center fw-bolder mb-5" style="text-shadow: 2px 10px 5px rgba(128, 128, 128, 0.701)"><h1>DAWLANCE PRODUCTS</h1></div>
+    <div class="container pb-3">
+    <div class="row" id="productListing_d">  
+  </div>
+</div>
+  </section>
+  <section>
+    <div  class="text-center fw-bolder mb-5" style="text-shadow: 2px 10px 5px rgba(128, 128, 128, 0.701)"><h1>ORIENT PRODUCTS</h1></div>
+    <div class="container pb-3">
+    <div class="row" id="productListing_o">  
+  </div>
+</div>
+  </section>
+  <section>
+    <div  class="text-center fw-bolder mb-5" style="text-shadow: 2px 10px 5px rgba(128, 128, 128, 0.701)"><h1>PEL PRODUCTS</h1></div>
+    <div class="container pb-3">
+    <div class="row" id="productListing_p">  
+  </div>
+</div>
+  </section>
+  <section>
+    <div  class="text-center fw-bolder mb-5" style="text-shadow: 2px 10px 5px rgba(128, 128, 128, 0.701)"><h1>GREE PRODUCTS</h1></div>
+    <div class="container pb-3">
+    <div class="row" id="productListing_g">  
+  </div>
+</div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer start -->
+  <footer class="footer mt-2" style="color: white;">
+    <div class="container-fluid"> 
+     <div class="row pt-5"> 
+           <div class="col-sm-12 col-md-3 col-lg-3 justify-content-center d-flex pb-2">
+               <img id="heartbeat" src="Images/logoremoveback.png" alt="" class="img-fluid me-2" style="width: 40%;"> 
+           </div> 
+           <div class="col-sm-12 col-md-3 col-lg-3"> 
+               <h5 class="text-center">About Us</h5> 
+               <p style="text-align: justify;"> 
+                "Beat the heat, elevate your space. Cosy-Airconditioner offers premium air conditioning systems for maximum comfort and minimum hassle. Your comfort, our priority."
+               </p> 
+           </div> 
+           <div class="col-sm-12 col-md-3 col-lg-3"> 
+               <h5 class="text-center">Contact Us</h5> 
+               <ul class="list-unstyled text-center">
+                 <li>Phone: +1-800-123-4567</li>
+                   <li>Email: info@Cosy-AirConditioners.com</li> 
+                   <li>Address: 177 A Bleeckers St, New York</li> 
+               </ul> 
+           </div> 
+           <div class="col-sm-12 col-md-3 col-lg-3"> 
+               <h5 class="text-center">Follow Us</h5> 
+               <li class="list-inline-item justify-content-center d-flex pt-3">
+               <ul class="list-inline footer-links">
+                 <li class="list-inline-item">
+                   <a href="https://www.facebook.com/login/">
+                         <i id="heartbeat" class="fab fa-facebook "></i> 
+                   </a> 
+                   </li> 
+                 <li class="list-inline-item"> 
+                   <a href="https://twitter.com/i/flow/login">
+                         <i id="heartbeat" class="fab fa-twitter "></i> 
+                   </a> 
+                 </li> 
+                 <li class="list-inline-item"> 
+                   <a href="https://www.instagram.com/accounts/login/?hl=en"> 
+                         <i id="heartbeat" class="fab fa-instagram "></i> 
+                   </a> 
+                 </li> 
+                 <li class="list-inline-item"> 
+                   <a href="https://www.linkedin.com/login"> 
+                         <i id="heartbeat" class="fab fa-linkedin "></i>
+                     </a> 
+                   </li> 
+               </ul> 
+           </div> 
+       </div> 
+       <hr> 
+       <div class="row"> 
+           <div class="col-sm-12 col-md-12 col-lg-12 text-center"> 
+               <p>&copy; 2024 [Cosy-AirConditioners]. All rights reserved.</p>
+               <p>Created By Muhammad Yashaib Hashmi.  <i class="fa-solid fa-heart"></i></p> 
+           </div> 
+           
+       </div> 
+   </div> 
+ </footer>  
+           <!-- footer end -->
+
+
+
+  
+   
+   <script src="js/bootstrap.js"></script>
+   <script src="js/jquery.js"></script>
+   <script src="source.js"></script>
+   <script>
+   var product = [
+    [1,"Solar Hybrid AC Solar Hybrid-1/AC","Images/Haier1p.jpeg",'UVC Sterilization WiFi Control WiFi Control Smart Clean Smart Clean',120000,"Haier"],
+    [2,"Thunder Inverter HSU-12HPM/012SDC(W)-T3","Images/Haier2p.jpeg",'Power Input (W)510 -3500 Running Current (A)2.4 -15.5 Refrigerant R32 Air Circulation (m3/h)1510',140000,"Haier"],
+    [3,"Pearl Inverter HSU-24HFP/WUSDC (G)","Images/Haier3p.jpeg",'UVC Sterilization WiFi Control WiFi Control Smart Clean Smart Clean',180000,"Haier"],
+    [4,"Split Air Conditioners","Images/Dawlance1.jpeg",'AC Inverter Mono Split Cooling Capacity (Btu/h) 12500 BTU/h Function Reversible Self Cleaning Yes',120000,"Dawlance"],
+    [5,"UV Inverter Air Conditioners","Images/Dawlance2.jpeg",'AC Inverter Mono Split Cooling Capacity (Btu/h) 12500 BTU/h Function Reversible Self Cleaning Yes',140000,"Dawlance"],
+    [6,"Standing Air Conditioners","Images/Dawlance3.jpeg",'Gold Fin Yes Self Cleaning Yes',180000,"Dawlance"],
+    [7,"1 Ton Ultron DIVINE...","Images/Orient1.jpeg",'T3 tropicalized inverter Japanese PCB Kit Auto Pilot Optimized compressor drive Low voltage operation 70V',120000,"Orient"],
+    [8,"1 Ton Ultron MEGA e...","Images/Orient2.jpeg",'T3 tropicalized inverter Japanese PCB Kit Auto Pilot Optimized compressor drive Low voltage operation 70V 100% pure copper',140000,"Orient"],
+    [9,"2 Ton ULTIMATE Silk...","Images/Orient3.jpeg",'on-inverter technology Energy efficient technology R410 Eco friendly refrigerant Heat & Cool 4D air flow',180000,"Orient"],
+    [10,"PEL InverterOn Turbo DC Ultimate T3 (H&amp;C) Air Conditioner","Images/Pel1p.jpeg",'(H&C) Air Conditioner (1 Ton & 2 Ton Wifi Available',120000,"Pel"],
+    [11,"PEL Regal 4Ton floor standby auto temp adjust Air Conditioner","Images/Pel2p.jpeg",'12K Turbo DC Ultimate T3 Range Capacity Cooling 1004(100~1182)W Range Current Cooling 4.5(1.1~5.4) ARated Current 9.0 ARange Capacity Heating 925(240~1083) W',140000,"Pel"],
+    [12,"PEL InverterOn Sublime T3 auto switch (H&amp;C) Air Conditioner","Images/Pel3p.jpeg",'Regal (Heat & Cool) 2.0 Ton Rated Capacity Cooling 7100 Rated Running Current Cooling 14.5 W Maximum Current 19 A Rated Power Cooling 2500 W Maximum Power 4000 W',180000,"Pel"],
+    [13,"Gree 1Ton inverter Air conditoner","Images/Gree1p.jpeg",'Auto Clean Dehumidification I-Feel functionality Self-diagnosis Multiple fan speeds Automatic voltage adaptation Low voltage start-up Swing louver control',120000,"Gree"],
+    [14,"Gree 2Ton Inverter Air conditioner","Images/Gree2p.jpeg",'Auto Clean Dehumidification I-Feel functionality Self-diagnosis Multiple fan speeds Automatic voltage adaptation Low voltage start-up Swing louver control',140000,"Gree"],
+    [15,"Gree 1.5Ton commercial Air conditioners","Images/Gree3p.jpeg",'4-Way discharge air Multiple fan speeds Swing louver control Automatic voltage adaption',180000,"Gree"]
+]
+
+var category = []
+for (var iterator of product) {
+    if(category.includes(iterator[5])){
+
+    }else{
+        category.push(iterator[5])
+        
+    }
+  }
+  var  brandlist= "";
+for ( list of category) {
+    brandlist += ` <li><a class="dropdown-item rounded-pill" href="category.html?brand=${list}" id="li_btn" style="background: linear gradient(to right, grey, black, black, grey);">${list}</a></li>`
+    
+}
+document.getElementById("list").innerHTML = brandlist;
+   </script>
+</body>
+</html>
